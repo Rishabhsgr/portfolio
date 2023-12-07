@@ -1,3 +1,12 @@
 .text-sm{
     font-size: 0.8rem;
 }
+
+.container-fluid{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.container-center{
+    max-width: 600px;
+    margin :auto;
+}
