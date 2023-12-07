@@ -1,3 +1,9 @@
+
+
+:root{
+    --primary: #0ea5e9;
+}
+
 .text-sm{
     font-size: 0.8rem;
 }
@@ -14,7 +20,20 @@
 }
 .primary-link{
     text-decoration: none;
+    color: white;
+    background-color:var(--primary);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: max-content;
+    min-width: 140px;
+    
 }
 .secondary-link{
+    color:var(--primary) ;
     text-decoration: none;
+    width: max-content;
+    min-width: 140px;
+    border:1px solid var(--primary);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
