@@ -9,7 +9,7 @@ margin: 2rem 0;;
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .text-sm{
@@ -20,12 +20,14 @@ body{
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
 .container{
     max-width: 600px;
     margin :auto;
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
 .primary-link{
     text-decoration: none;
     color: white;
@@ -36,6 +38,7 @@ body{
     min-width: 140px;
     
 }
+
 .secondary-link{
     color:var(--primary) ;
     text-decoration: none;
@@ -44,4 +47,79 @@ body{
     border:1px solid var(--primary);
     border-radius: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.unordered{
+list-style: none;
+}
+
+.list-inline li {
+display : inline;
+padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color: var(--primary);
+    padding: 1rem 0rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .brand{
+    font-weight: bold;
+}
+
+.navigation ul{
+    list-style: none;
+    text-align: right;
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 0rem 0.8rem;
+}
+.navigation a{
+    text-decoration: none;
+    color:white;
+}
+.navigation .active{
+    font-weight: bold;
+}
+
+.hero{
+color: var(--primary);
+display: block;
+}
+.hero img{
+    max-width: 500px;
+    margin:auto;
+    display: block;
+}
+
+.section{
+    padding: 2rem 1.7rem ;
+    border-radius: 0.2rem;
+}
+.section h2{
+    text-align: center;
+}
+
+.ow{
+    background-color:rgb(213, 213, 213);
+}
+
+.footer{
+    background-color: var(--primary);
+    color: white;
+    padding: 2rem 0rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+.footer .heading{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
