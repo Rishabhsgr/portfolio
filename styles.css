@@ -32,7 +32,7 @@ body{
     margin :auto;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 4rem;
+    padding-top: 1rem;
 }
 
 .primary-link{
@@ -67,7 +67,7 @@ padding: 0rem 0.5rem;
 
 .navigation{
     background-color: var(--primary);
-    padding: 1rem 0rem;
+    padding: 1rem 0rem;;
     color: white;
     border-bottom-left-radius: 1rem;
 }
@@ -111,7 +111,7 @@ display: block;
 
 .section{
     padding: 2rem 1.7rem ;
-    border-radius: 0.2rem;
+    border-radius: 1rem;
     text-align: center;
 }
 .section h2{
@@ -127,6 +127,7 @@ display: block;
     color: white;
     padding: 2rem 0rem;
     border-top-right-radius: 1rem;
+    margin-top: 30px;
     text-align: center;
 }
 .footer .heading{
@@ -136,4 +137,15 @@ display: block;
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.mail{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.3rem 1rem;
+    color: rgb(0, 0, 0);
 }
