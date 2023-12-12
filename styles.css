@@ -16,10 +16,10 @@ body{
 }
 
 .logo{
-    max-width: 70px;
+    max-width: 60px;
     float: left;
-   padding-left: 0.7rem;
-   padding-top: 0.7rem;
+   padding-left: 0.9rem;
+   padding-top: 0.9rem;
 }
 
 .container-fluid{
@@ -95,6 +95,7 @@ display: block;
 }
 .hero img{
     max-width: 300px;
+    padding-top: 30px;
     margin:auto;
     display: block;
 }
