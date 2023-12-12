@@ -94,7 +94,7 @@ color: var(--primary);
 display: block;
 }
 .hero img{
-    max-width: 400px;
+    max-width: 300px;
     margin:auto;
     display: block;
 }
