@@ -3,119 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my component library</title>
-    <link rel ="stylesheet" href="styles.css"/>
+    <link rel ="stylesheet" href="/styles.css"/>
+    <title>Document</title>
 </head>
 <body>
-    <h1> component library </h1>
-    <p><strong>Rishabh Sagar</strong> is trying to gain web dev skills. Using html first</p>
-    <p>i have created this component library which will help me understand the elements of a website better .</p>
-    <p>i am going to use this lib in my projects and in my <strong>portfolio</strong> i will use this to make all of my project consistently themed and styled</p>
-    <hr>
+    <nav class="navigation">
+        <div class="container-fluid">
+            <div class="brand">RISHABH TRIED CODING</div>
+        <ul>
+            <li>
+                <a href="/" class="active">Home</a>
+            </li>
+            <li>
+                <a href="/">Projects</a>
+            </li>
+            <li>
+                <a href="/">About me</a> 
+            </li>
+        </ul>
+        </div>
+        </nav>
 
-    <h2>Typography</h2>
-    <h1>This is the biggest heding using h1</h1>
-    <h2>This is the second biggest heading using h2</h2>
-    <p>This is normal text long running text using p tag </p>
-    <p class="text-sm">This is relatively smaller text which will use reference size from css stylesheet</p>
-    <hr>
+        <header class="container hero">
+            <img src="\images\hero.svg"/>
+            <h1 class="hero-heading">Hey this is Rishabh sagar and i am a <span class="heading-inverted">web developer</span></h1>
+        </header>
 
-    <h2>Containers</h2>
-    <h3>Fluid container</h3>
-    <div class="container-fluid">
-        This is a fluid container this will go full width of page with some of margin.
-    </div>
-    <h3>Center Container</h3>
-    <div class="container">
-        This is a center container this will go till a given width and center conatiner
-    </div>
-    <hr>
-
-    <h2>Links</h2>
-    <a class="primary-link" href="/"> Primary Link</a>
-    <a class="secondary-link" href="/">Secondary Link</a>
-    <hr>
-    <h2>Lists</h2>
-    <h3>Unordered lists</h3>
-    <p>This is a unordered list it will show like this :
-        and i made change with css to remove bullets.
-    </p>
-    <ul class="Unordered">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-<h3>Inline lists</h3>
-<p>This list will be shown in a shown in coloums</p>
-<ul class="unordered list-inline">
-    <li>coloum one</li>
-    <li>coloum two</li>
-    <li>coloum three</li>
-</ul>
-<h3>Reverse ordered lists</h3>
-<p>counting will go in reverse</p>
-<ol reversed>
-    <li>first</li>
-    <li>second</li>
-    <li>third</li>
-</ol>
-<hr>
-
-<h2>Navigation bar</h2>
-<p>This used to provide naviagation on the top of a page and also to access different page</p>
-<nav class="navigation">
-<div class="container-fluid">
-    <div class="brand">ThebrandName</div>
-<ul>
-    <li>
-        <a href="/" class="active">home</a>
-    </li>
-    <li>
-        <a href="/">products</a>
-    </li>
-    <li>
-        <a href="/">about</a> 
-    </li>
-</ul>
-</div>
-</nav>
-<hr>
-
-<h2>Header</h2>
-<header class="container hero">
-    <img src="\images\hero.svg"/>
-    <h1>This is heading h1</h1>
-</header>
-<hr>
-
-<h2>Section</h2>
-<p>Section is used to seprate parts of pages in marketing website you would have seen a header followed by sections of features , tea, stats etc</p>
-<h3>Normal section</h3>
-<section class="section">
-    <h2>heading inside section</h2>
-    <p>Txt related to the section</p>
-    <a href="/" class="primary-link">Primary butoon</a>
-</section>
-
-<h2>An off white section</h2>
-<section class="section ow">
-    <h2>Inside off white setion</h2>
-    <p>Txt related to section</p>
-    <a href="/" class="primary-link">Primary button</a>
-</section>
-<hr>
-
-<h2>Footer</h2>
-<footer class="footer container-fluid">
-    <div class="container">
-        <div class="heading">header inside footer</div>
-    <ul class="unordered list-inline">
-        <li>social link one</li>
-        <li>social link two</li>
-        <li>social link three</li>
-    </ul>
-   </div>
-</footer>
-
+        <section class="section ow">
+            <h2>Technologies</h2>
+            <p>I'm familiar with HTML5, CSS3, Git, JavaScript and Web Hosting</p>
+        </section>
 </body>
 </html>
