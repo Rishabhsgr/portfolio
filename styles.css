@@ -19,6 +19,8 @@ body{
 .logo{
     max-width: 70px;
     float: left;
+   padding-left: 0.7rem;
+   padding-top: 0.7rem;
 }
 
 .container-fluid{
