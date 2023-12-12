@@ -16,7 +16,10 @@ body{
     font-size: 0.8rem;
 }
 
-
+.logo{
+    max-width: 70px;
+    float: left;
+}
 
 .container-fluid{
     padding-left: 2rem;
@@ -66,10 +69,6 @@ padding: 0rem 0.5rem;
     padding: 1rem 0rem;
     color: white;
     border-bottom-left-radius: 1rem;
-}
-
-.navigation .brand{
-    font-weight: bold;
 }
 
 .navigation ul{
