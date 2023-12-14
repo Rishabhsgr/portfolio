@@ -118,7 +118,9 @@ display: block;
 }
 
 .section{
-    padding: 2rem 1.7rem ;
+    padding: 2rem 1.7rem;
+    margin-right: 10px;
+    margin-left: 10px;
     border-radius: 1rem;
     text-align: center;
 }
