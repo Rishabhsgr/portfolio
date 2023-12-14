@@ -1,7 +1,8 @@
 
 
+
 :root{
-    --primary: #0ea5e9;
+    --primary-color: #0ea5e9;
 }
 
 hr{
@@ -9,7 +10,9 @@ margin: 2rem 0;;
 }
 
 body{
-    font-family: sans-serif;}
+    font-family: 'Open Sans', sans-serif;
+margin: 0px;
+}
 
 .text-sm{
     font-size: 0.8rem;
@@ -22,9 +25,34 @@ body{
    padding-top: 0.9rem;
 }
 
+.navigation{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation ul{
+    list-style: none;
+    text-align: right;
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 0rem 0.5rem;
+}
+.navigation a{
+    text-decoration: none;
+    color:white;
+}
+.navigation .active{
+    font-weight: bold;
+}
+
 .container-fluid{
     padding-left: 2rem;
-    padding-right: 2rem;;
+    padding-right: 2rem;
+
 }
 
 .container{
@@ -33,12 +61,13 @@ body{
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1rem;
+    
 }
 
 .primary-link{
     text-decoration: none;
     color: white;
-    background-color:var(--primary);
+    background-color:var(--primary-color);
     border-radius: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
     width: max-content;
@@ -47,11 +76,11 @@ body{
 }
 
 .secondary-link{
-    color:var(--primary) ;
+    color:var(--primary-color) ;
     text-decoration: none;
     width: max-content;
     min-width: 140px;
-    border:1px solid var(--primary);
+    border:1px solid var(--primary-color);
     border-radius: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
@@ -65,34 +94,10 @@ display : inline;
 padding: 0rem 0.5rem;
 }
 
-.navigation{
-    background-color: var(--primary);
-    padding: 1rem 0rem;;
-    color: white;
-    border-bottom-left-radius: 1rem;
-}
 
-.navigation ul{
-    list-style: none;
-    text-align: right;
-}
-
-.navigation li{
-    padding-top: 100px;
-    display: inline-block;
-    padding: 0rem 0.8rem;
-}
-.navigation a{
-   
-    text-decoration: none;
-    color:white;
-}
-.navigation .active{
-    font-weight: bold;
-}
 
 .hero{
-color: var(--primary);
+color: var(--primary-color);
 display: block;
 }
 .hero img{
@@ -109,11 +114,13 @@ display: block;
 }
 
 .heading-inverted{
-    color: var(--primary);
+    color: var(--primary-color);
 }
 
 .section{
-    padding: 2rem 1.7rem ;
+    padding: 2rem 1.7rem;
+    margin-right: 10px;
+    margin-left: 10px;
     border-radius: 1rem;
     text-align: center;
 }
@@ -126,9 +133,9 @@ display: block;
 }
 
 .footer{
-    background-color: var(--primary);
+    background-color: var(--primary-color);
     color: white;
-    padding: 2rem 0rem;
+    padding: 2rem;
     border-top-right-radius: 1rem;
     margin-top: 30px;
     text-align: center;
