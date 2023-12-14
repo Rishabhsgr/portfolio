@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary: #0ea5e9;
+    --primary-color: #0ea5e9;
 }
 
 hr{
@@ -23,52 +23,9 @@ body{
    padding-top: 0.9rem;
 }
 
-.container-fluid{
-    padding-left: 2rem;
-    padding-right: 2rem;;
-}
-
-.container{
-    max-width: 600px;
-    margin :auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-}
-
-.primary-link{
-    text-decoration: none;
-    color: white;
-    background-color:var(--primary);
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    width: max-content;
-    min-width: 140px;
-    
-}
-
-.secondary-link{
-    color:var(--primary) ;
-    text-decoration: none;
-    width: max-content;
-    min-width: 140px;
-    border:1px solid var(--primary);
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-}
-
-.unordered{
-list-style: none;
-}
-
-.list-inline li {
-display : inline;
-padding: 0rem 0.5rem;
-}
-
 .navigation{
-    background-color: var(--primary);
-    padding: 1rem 0rem;;
+    background-color: var(--primary-color);
+    padding: 1rem;
     color: white;
     border-bottom-left-radius: 1rem;
 }
@@ -90,8 +47,53 @@ padding: 0rem 0.5rem;
     font-weight: bold;
 }
 
+.container-fluid{
+    padding-left: 2rem;
+    padding-right: 2rem;;
+}
+
+.container{
+    max-width: 600px;
+    margin :auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.primary-link{
+    text-decoration: none;
+    color: white;
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: max-content;
+    min-width: 140px;
+    
+}
+
+.secondary-link{
+    color:var(--primary-color) ;
+    text-decoration: none;
+    width: max-content;
+    min-width: 140px;
+    border:1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.unordered{
+list-style: none;
+}
+
+.list-inline li {
+display : inline;
+padding: 0rem 0.5rem;
+}
+
+
+
 .hero{
-color: var(--primary);
+color: var(--primary-color);
 display: block;
 }
 .hero img{
@@ -108,7 +110,7 @@ display: block;
 }
 
 .heading-inverted{
-    color: var(--primary);
+    color: var(--primary-color);
 }
 
 .section{
@@ -125,7 +127,7 @@ display: block;
 }
 
 .footer{
-    background-color: var(--primary);
+    background-color: var(--primary-color);
     color: white;
     padding: 2rem 0rem;
     border-top-right-radius: 1rem;
