@@ -99,7 +99,10 @@ padding: 0rem 0.5rem;
 .hero{
 color: var(--primary-color);
 display: block;
+text-align: center;
+
 }
+
 .hero img{
     max-width: 300px;
     padding-top: 30px;
@@ -111,6 +114,7 @@ display: block;
     padding-top: 0.5rem;
     padding-bottom: 2rem;
     color:rgb(36, 36, 36);
+    
 }
 
 .heading-inverted{
